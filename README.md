@@ -172,7 +172,7 @@ Pulling the changes from the remote branch after cloning
         git pull origin master
 
 
-Create a pull request in the GUI create a branch make some changes and then merge the branch to the master.
+Create a pull request in the GUI create a branch make some changes and then merge the branch to the master!
 
 
         
