@@ -45,7 +45,7 @@ git ls-files
 
 git status
 
-####now makes sure if you ok with modifiacations and confident then commit the test.txt as well########
+####now makes sure if you ok with modifiacations and confident then commit the test.txt as well#####
 
 
 
