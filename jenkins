@@ -49,6 +49,22 @@ mkdir /var/lib/jenkins/jenkins_backup
 move to GUI -> manage jenkins->system -> got thinbackup section and give the above location  -NOTE: tick the boxes and save
 
 
+#####jenkins cli manage jenkins from the cli#######
+
+
+wget --auth-no-challenge --http-user=admin --http-password=11cfee3b155fa66fd9d404115bf89001b2 http://localhost:8080/jnlpJars/jenkins-cli.jar
+
+java -jar jenkins-cli.jar -s http://192.168.12.216:8080/ -auth admin:redhat help
+
+java -jar jenkins-cli.jar -s http://192.168.12.216:8080/ -auth admin:redhat list-jobs
+
+java -jar jenkins-cli.jar -s http://192.168.12.216:8080/ -auth admin:redhat  build test2   #### go to gui to see the job has started###
+
+
+
+
+
+
 
 
  
