@@ -60,6 +60,25 @@ java -jar jenkins-cli.jar -s http://192.168.12.216:8080/ -auth admin:redhat list
 
 java -jar jenkins-cli.jar -s http://192.168.12.216:8080/ -auth admin:redhat  build test2   #### go to gui to see the job has started###
 
+######SLACK notification######
+
+Install slack notification plugin 
+
+move to GUI -> manage jenkins->system -> Slacck 
+
+Workspace
+values
+(    devops-zh24103 )# this we get from slack by clicking on the user name
+
+Add secrets from the secrets text and give the token ### this we get from the slack click on username -> too and settings-> manage app and search jenkins and configure jenkins cli
+
+click test the connection to see the all good
+
+save and 
+
+
+go to job and go to post build section and select slack notification  and save 
+Run the job we should see the slack notification.
 
 
 
